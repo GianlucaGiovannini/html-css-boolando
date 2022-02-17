@@ -16,14 +16,88 @@ Utility
 
 
 
+/* 
+tag
+**********************/
+body {
+    padding: 1rem 0;
+}
+
 
 
 /* 
 main
 **********************/
+.container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 1rem;
+    vertical-align: middle;
+}
 
+.box {
+    display: inline-block;
+}
 
+.box img {
+    width: auto;
+    height:500px;
+}
 
+.img-box {
+    margin: 0 0.1rem;
+    display: inline-block;
+    position: relative;
+}
 
+.img-box > .icon {
+    font-size: 1.5rem;
+    background-color: var(--color-white);
+    padding: 0.25rem 0.75rem;
+    position: absolute;
+    top: 1rem;
+    right: 0;    
+}
 
+.img-box .badge {
+    color: var(--color-white);
+    position: absolute;
+    bottom: 1rem;
+    left: 0;
+}
 
+.img-badge {
+    font-size: 0.9rem;
+    display: inline-block;
+    padding: 0.3rem 0.5rem;
+}
+
+.badge .discount {
+    background-color: var(--bg-discount);
+}
+
+.badge .sostenibilità {
+    background-color: var(--bg-sostenibilità);
+}
+
+.price {
+    color: var(--color-red);
+}
+
+.price > span {
+    color: black;
+    text-decoration: line-through;
+}
+
+.img-box-hover {
+    position: absolute;
+    visibility: hidden;
+}
+
+.img-box:hover .img-box-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: visible;
+
+}
