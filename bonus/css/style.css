@@ -74,6 +74,7 @@ main
 
 .box {
     display: inline-block;
+    margin-bottom: 1rem;
 }
 
 .box img {
