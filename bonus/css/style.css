@@ -22,9 +22,21 @@ tag
 header {
     color: var(--color-white);
     background-color: #080808;
+    width: 100%;
     text-align: center;
     padding: 1rem;
     margin-bottom: 2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+footer {
+    color: var(--color-white);
+    background-color: #080808;
+    text-align: center;
+    padding: 2rem;
 }
 
 /* 
@@ -53,7 +65,7 @@ main
 **********************/
 .container {
     width: 60%;
-    margin: 0 auto;
+    margin: 5rem auto 2rem;
     padding: 1rem;
     vertical-align: middle;
 }
