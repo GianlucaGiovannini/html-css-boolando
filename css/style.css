@@ -14,7 +14,9 @@ Utility
     --color-red: #FF0000;
 }
 
-
+.hidden {
+    visibility:hidden;
+}
 
 /* 
 tag
