@@ -65,7 +65,7 @@ main
 **********************/
 .container {
     width: 60%;
-    margin: 5rem auto 2rem;
+    margin: 7rem auto 2rem;
     padding: 1rem;
     vertical-align: middle;
 }
@@ -136,3 +136,17 @@ main
     visibility: visible;
 
 }
+
+.logo-b {
+    position: fixed;
+    z-index: 1;
+    top: 7rem;
+    right: 7rem;
+
+
+}
+
+.logo-b img {
+    width: 5rem;
+}
+
